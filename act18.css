@@ -1,0 +1,53 @@
+body{
+    background-image: url(ha.png);
+}
+#nameTagGenerator {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#nameInput {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#generateButton {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#nameTagList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: 3px lightcoral;
+    border-width: 30px;
+    background: linear-gradient(100deg, pink, lightblue, lightblue)
+}
+
+.nameTag {
+    background-color: 2px white;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+text{
+    font-style: italic;
+}
